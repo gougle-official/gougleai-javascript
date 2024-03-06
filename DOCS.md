@@ -15,7 +15,6 @@ For `javascript` with `cdn` in `html` page :
 
 ## Example
 `javascript`:
-
 `html`
 ```html
 <!DOCTYPE html>
@@ -31,7 +30,6 @@ For `javascript` with `cdn` in `html` page :
   	</body>
 </html>
 ```
-
 `javascript`
 ```javascript
 gougleai.apiKey = "YOU_API_KEY_HERE";
@@ -46,3 +44,5 @@ userInput.addEventListener("submit", () => {
 	  textOutput.textContent = "GLT-1: " + response.choices[0];
 });
 ```
+## More docs
+To see more docs about Gougle AI API, you can read [`gougle-official/gougleai/DOCS.md`](https://www.github.com/gougle-official/gougleai/blob/main/DOCS.md) for `all` or [`gougle-official/gougleai-python/DOCS.md`](https://www.github.com/gougle-official/gougleai-python/blob/main/DOCS.md) for `python`. 
