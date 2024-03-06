@@ -10,7 +10,7 @@ The Gougle AI API include Gougle AI models.
 | GIC-1.0.5 Beta | `gougleai.models.gic.gic105` | Image Generation                    |
 
 ## Docs
-See [`DOCS.md`](https://github.com/gougle-official/gougleai-javascript/blob/main/DOCS.md) for more.
+See [`DOCS.md`](https://github.com/gougle-official/gougleai-javascript/blob/main/DOCS.md) for the docs.
 
 ## More specifications
 To see more than about Gougle AI API, you can read [`gougle-official/gougleai-python`](https://www.github.com/gougle-official/gougleai-python) for `python` or [`gougle-official/gougleai`](https://www.github.com/gougle-official/gougleai) for `all`. 
