@@ -1,6 +1,6 @@
 # Gougle AI API Docs − JavaScript
 ## Usages
-For `javascript` with `cdn` in `html` page :
+For `javascript` with `cdn` in an `html` page :
 ```html
 <script src="https://api.withgougle.cf/ai/gougleai-js" type="text/javascript"></script>
 ```
@@ -14,20 +14,19 @@ For `javascript` with `cdn` in `html` page :
 | GIC-1.0.5 Beta | `gougleai.models.gic.gic105` | Image Generation                    |
 
 ## Example
-`javascript`:
 `html`
 ```html
 <!DOCTYPE html>
 <html>
-	  <head>
-		    <meta charset="utf-8">
-  	</head>
-	  <body>
-		    <input type="text" id="myInput">
-    		<p id="myParagraph"></p>
-		    <script src="https://api.withgougle.cf/ai/gougleai-js" type="text/javascript"></script>
-		    <script src="./app.js" type="text/javascript"></script>
-  	</body>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <input type="text" id="myInput">
+        <p id="myParagraph"></p>
+        <script src="https://api.withgougle.cf/ai/gougleai-js" type="text/javascript"></script>
+        <script src="./app.js" type="text/javascript"></script>
+    </body>
 </html>
 ```
 `javascript`
@@ -37,11 +36,11 @@ userInput = document.getElementById("myInput");
 textOutput = document.getElementById("myParagraph");
 
 userInput.addEventListener("submit", () => {
-	  prompt = userInput.value;
-	
-	  response = gougleai.complete(gougleai.models.glt.glt1, prompt, 100);
-	
-	  textOutput.textContent = "GLT-1: " + response.choices[0];
+    prompt = userInput.value;
+    
+    response = gougleai.complete(gougleai.models.glt.glt1, prompt, 100);
+    
+    textOutput.textContent = "GLT-1: " + response.choices[0];
 });
 ```
 ## More docs
